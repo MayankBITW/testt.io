@@ -31,7 +31,7 @@ export default function NotFoundPage() {
             The page you're looking for may have been not deployed.
           </p>
         </div>
-/*The page you're looking for may have been moved, deleted, or never existed.*/
+        {/*The page you're looking for may have been moved, deleted, or never existed.*/}
         {/* Illustration */}
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto bg-indigo-100 rounded-full flex items-center justify-center mb-6">
