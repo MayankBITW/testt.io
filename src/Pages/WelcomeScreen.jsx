@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Code2, Github, Globe, User } from 'lucide-react';
+import { ChartColumnIncreasing,BriefcaseBusiness } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -109,7 +110,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 className="flex justify-center gap-3 sm:gap-4 md:gap-8 mb-6 sm:mb-8 md:mb-12"
                 variants={childVariants}
               >
-                {[Code2, User, Github].map((Icon, index) => (
+                {[BriefcaseBusiness, User, ChartColumnIncreasing].map((Icon, index) => (
                   <div key={index} data-aos="fade-down" data-aos-delay={index * 200}>
                     <IconButton Icon={Icon} />
                   </div>
@@ -137,14 +138,14 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                     <span data-aos="fade-up" data-aos-delay="800" className="inline-block px-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                       Portfolio
                     </span>{' '}
-                    <span data-aos="fade-up" data-aos-delay="1000" className="inline-block px-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                    {/* <span data-aos="fade-up" data-aos-delay="1000" className="inline-block px-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                       Website
-                    </span>
+                    </span> */}
                   </div>
                 </h1>
               </motion.div>
 
-              {/* Website Link */}
+              {/* Business Analyst */}
               <motion.div 
                 className="text-center"
                 variants={childVariants}

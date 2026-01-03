@@ -189,7 +189,7 @@ const ProjectDetails = () => {
                   <span className="relative font-medium">Live Demo</span>
                 </a>
 
-                <a
+                {/* <a
                   href={project.Github}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -199,7 +199,7 @@ const ProjectDetails = () => {
                   <div className="absolute inset-0 translate-y-[100%] bg-gradient-to-r from-purple-600/10 to-pink-600/10 transition-transform duration-300 group-hover:translate-y-[0%]" />
                   <Github className="relative w-4 h-4 md:w-5 md:h-5 group-hover:rotate-12 transition-transform" />
                   <span className="relative font-medium">Github</span>
-                </a>
+                </a> */}
               </div>
 
               <div className="space-y-4 md:space-y-6">

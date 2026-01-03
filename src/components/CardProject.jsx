@@ -46,7 +46,7 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
             </p>
             
             <div className="pt-4 flex items-center justify-between">
-              {ProjectLink ? (
+              {/* {ProjectLink ? (
                 <a
                 href={ProjectLink || "#"}
                   target="_blank"
@@ -59,7 +59,8 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
                 </a>
               ) : (
                 <span className="text-gray-500 text-sm">Demo Not Available</span>
-              )}
+              )
+              } */}
               
      
 

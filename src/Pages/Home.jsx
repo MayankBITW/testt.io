@@ -80,7 +80,7 @@ const PAUSE_DURATION = 2000;
 const WORDS = ["Insurance & Finance Domain", "Tech Enthusiast"];
 const TECH_STACK = ["P&C Insurance", "Reinsurance", "Fianancial Analytics", "Visualization","Reporting"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/" },
+  // { icon: Github, link: "https://github.com/" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/mayankyadav01/" },
   { icon: Instagram, link: "https://www.instagram.com/mayank._23/?hl=en" }
 ];
@@ -143,7 +143,7 @@ const Home = () => {
 
   // Lottie configuration
   const lottieOptions = {
-    src: "https://lottie.host/4953c6ff-f8b0-45cd-b667-baf472bba2ae/EHnn08K4mW.lottie",
+    src: "https://lottie.host/0fd9fe32-da1e-4fe1-a2ef-9159489c68dd/N3PObMywX8.json",
     loop: true,
     autoplay: true,
     rendererSettings: {
