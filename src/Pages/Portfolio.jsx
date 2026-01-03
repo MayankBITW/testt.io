@@ -15,7 +15,7 @@ import TechStackIcon from "../components/TechStackIcon";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Certificate from "../components/Certificate";
-import { Code, Award, Boxes } from "lucide-react";
+import { Code, Award, Boxes,Building} from "lucide-react";
 
 
 const ToggleButton = ({ onClick, isShowingMore }) => (
@@ -313,6 +313,11 @@ export default function FullWidthTabs() {
               label="Skills"
               {...a11yProps(2)}
             />
+              {/* <Tab
+              icon={<Building className="mb-2 w-5 h-5 transition-all duration-300" />}
+              label="Journey"
+              {...a11yProps(3)}
+            /> */}
           </Tabs>
         </AppBar>
 
@@ -390,6 +395,113 @@ export default function FullWidthTabs() {
               </div>
             </div>
           </TabPanel>
+
+{/* <TabPanel value={value} index={3} dir={theme.direction}>
+  <div className="container mx-auto flex justify-center pb-[5%]">
+    <div className="max-w-4xl w-full space-y-12"> 
+
+
+      <div data-aos="fade-up" className="flex gap-6">
+        <div className="flex flex-col items-center">
+          <div className="w-4 h-4 rounded-full bg-gradient-to-r from-amber-400 to-yellow-300 shadow-lg mt-2" />
+          <div className="flex-1 w-px bg-gradient-to-b from-amber-400/50 to-transparent" />
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-white">
+            Business Analyst · Bangalore
+          </h3>
+          <p className="text-amber-300 text-sm">
+            iNube Software Solutions Pvt. Ltd. | Jan 2024 – Present
+          </p>
+          <p className="text-white/70 italic mt-1">
+            Digital transformation & analytics solutions
+          </p>
+
+          <ul className="mt-4 space-y-2 text-white/80 list-disc list-inside">
+            <li>Delivered 50+ BRDs, FRDs, user stories, and acceptance criteria.</li>
+            <li>Designed end-to-end workflows, UML diagrams, and process flows.</li>
+            <li>Created wireframes (draw.io) and Figma prototypes.</li>
+            <li>Initiated product development for non-proportional reinsurance underwriting.</li>
+            <li>Developed & configured APIs for seamless system integrations.</li>
+            <li>Implemented analytics solutions for cross-functional decision-making.</li>
+            <li>Led solution demos, PoCs, estimations, and stakeholder workshops.</li>
+            <li>Maintained detailed documentation improving onboarding & knowledge transfer.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div data-aos="fade-up" className="flex gap-6">
+        <div className="flex flex-col items-center">
+          <div className="w-4 h-4 rounded-full bg-gradient-to-r from-indigo-400 to-purple-400 shadow-lg mt-2" />
+          <div className="flex-1 w-px bg-gradient-to-b from-indigo-400/40 to-transparent" />
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-white">
+            Business Analyst & Process Automation · Indore
+          </h3>
+          <p className="text-indigo-300 text-sm">
+            Auto-Complys Solutions | Oct 2022 – Aug 2023
+          </p>
+
+          <ul className="mt-4 space-y-2 text-white/80 list-disc list-inside">
+            <li>Automated business processes using Excel Macros & VBA.</li>
+            <li>Converted raw datasets into actionable business insights.</li>
+            <li>Streamlined sales, tax, inventory, and purchase workflows.</li>
+            <li>Designed Power BI dashboards for operations, revenue & customer analytics.</li>
+            <li>Trained teams on dashboards and process best practices.</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div data-aos="fade-up" className="flex gap-6">
+        <div className="flex flex-col items-center">
+          <div className="w-4 h-4 rounded-full bg-gradient-to-r from-cyan-400 to-sky-400 shadow-lg mt-2" />
+          <div className="flex-1 w-px bg-gradient-to-b from-cyan-400/40 to-transparent" />
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-white">
+            Co-Organizer · Indore
+          </h3>
+          <p className="text-cyan-300 text-sm">
+            TEDxRenaissanceUniversity | Oct 2021 – Jul 2022
+          </p>
+
+          <ul className="mt-4 space-y-2 text-white/80 list-disc list-inside">
+            <li>Coordinated the first-ever TEDx event at Renaissance University.</li>
+            <li>Managed curation, finances, logistics, vendors, and volunteers.</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div data-aos="fade-up" className="flex gap-6">
+        <div className="flex flex-col items-center">
+          <div className="w-4 h-4 rounded-full bg-gradient-to-r from-slate-400 to-gray-300 shadow-lg mt-2" />
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold text-white">
+            Early Career & Internships
+          </h3>
+
+          <ul className="mt-4 space-y-3 text-slate-300">
+            <li><strong>Equity Research Analyst</strong> – Amico Wealth (Apr 2022 – May 2022)</li>
+            <li><strong>Finance & Portfolio Management</strong> – Ready Wealth (Mar 2022 – May 2022)</li>
+            <li><strong>Unit Manager Intern</strong> – NJ India Invest Pvt. Ltd. (Dec 2021)</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</TabPanel> */}
+
+
+
         </SwipeableViews>
       </Box>
     </div>
