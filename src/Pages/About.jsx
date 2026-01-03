@@ -249,7 +249,7 @@ Business Analyst with 2.5+ years of experience in the (Re)Insurance, Analytics, 
                 <FileText className="w-4 h-4 sm:w-5 sm:h-5" /> Download CV
               </button>
               </a>
-              <a href="#Portofolio" className="w-full lg:w-auto">
+              <a href="#Portfolio" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -264,7 +264,7 @@ Business Analyst with 2.5+ years of experience in the (Re)Insurance, Analytics, 
           <ProfileImage />
         </div>
 
-        <a href="#Portofolio">
+        <a href="#Portfolio">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 cursor-pointer">
             {statsData.map((stat) => (
               <StatCard key={stat.label} {...stat} />
